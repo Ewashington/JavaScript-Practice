@@ -36,7 +36,7 @@ age = 38
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
-var shoppinglist =
+
 
 
 // Q3
@@ -63,7 +63,10 @@ var shoppinglist =
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-
+var name = "Brit"
+var greet = "Hello" function (name) {
+  console.log (greet + name);
+}
 
 
 // Q6
