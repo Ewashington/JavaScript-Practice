@@ -25,18 +25,27 @@
 // parameters and returns the sum of those 2 numbers.
 
 
-3 * 6
+var sum = function (x , y) {
+  return (x + y);
+};
 
-
-age = 38
-2016 - age
+var answer = sum (2, 5);
+//x=2, y=5
 
 
 // Q2
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
+//[25, 75, 200]
 
+
+
+var z = function (w, x, y){
+    return (w + x + y) / 3;
+  }
+
+var result = z (25, 75, 200);
 
 
 // Q3
@@ -44,8 +53,12 @@ age = 38
 // parameter (a string) and returns the length
 
 
+var getLength = function (string){
+  return string.length;
+};
 
-"ErikaMichelle".length
+var length = getLength ("Erika");
+
 
 
 // Q4
@@ -53,6 +66,16 @@ age = 38
 // two parameters and returns `true` if the second
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
+
+var greaterThan = function (x, y){
+  if (x > y)
+  return true;
+  if (x < y)
+  return false;
+};
+//(3, 5) and (5, 3)
+
+var solution = greaterThan (3 , 5);
 
 
 
@@ -63,10 +86,12 @@ age = 38
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-var name = "Brit"
-var greet = "Hello" function (name) {
-  console.log (greet + name);
-}
+var greet = function (x){
+  return ("Hello, " + x);
+};
+
+var x = "Mike";
+var response = greet (x);
 
 
 // Q6
@@ -80,8 +105,11 @@ var greet = "Hello" function (name) {
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
+var madlib = function (one, two, three, four){
+  return ("I like " + one + ", " + two + ", " + three + ", and " + four +".");
+}
 
-
+var sentence = madlib ("cake", "parfaits", "grapes", "wine");
 
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
